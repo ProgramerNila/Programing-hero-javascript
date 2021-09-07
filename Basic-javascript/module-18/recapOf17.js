@@ -1,0 +1,4 @@
+// array
+// condition
+// loop
+// comparisom

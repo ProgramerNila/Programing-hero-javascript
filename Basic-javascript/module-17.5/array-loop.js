@@ -24,3 +24,20 @@ for (let i = 0; i < myAee.length; i++) {
 }
 console.log(sum2);
 
+// new element add and remove old element
+
+myAee[2]="change korlam"
+console.log(myAee);
+
+
+
+
+
+
+
+
+
+
+
+
+

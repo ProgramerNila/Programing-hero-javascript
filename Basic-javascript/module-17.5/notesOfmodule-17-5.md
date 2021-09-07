@@ -16,7 +16,8 @@
 1. array decler করতে হবে ।
 2.  default value set করতে হবে loop এর বাইরে {ex: array-loop.js }
 3. for loop  এর ভিতর array এর মান নিতে হবে ।
-4. default value এর সাথে আগের টা যোগ করে দিতে হবে
+4. default value এর সাথে আগের টা যোগ করে দিতে হবে.
+5. array এর কোন element change করতে হলে arrayName[indexNumber]= 'new element;
 
 
 
