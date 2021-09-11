@@ -29,7 +29,8 @@ console.log(sum2);
 myAee[2]="change korlam"
 console.log(myAee);
 
-
+// check index {5 number e kon element ase}
+console.log(myArry[5]);
 
 
 
