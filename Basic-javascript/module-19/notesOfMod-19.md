@@ -17,6 +17,19 @@
 1. 3!= 3x2x1 {3 এর factorial }
 2. n!=n(n-1) { n এর  FACTORIAL}
 3. 
+# 19-6 Recalculate factorial multiple times using a function
+
+
+# 19-7 Factorial using a while loop or a decrementing loop
+1. Recalculate factorial multiple times using a function with while loop
+2. factorial multiple times using a function with for loop
+3. reverse or decriment of factorial with for loop
+# 19-8 (advanced) Calculate Factorial in a Recursive function
+1.  n!=n*(n-1) { n এর  FACTORIAL}
+2. n * function(n-1)
+3. recuirsive হল function eএর মধ্যে একই function call করা।
+4. condition stop if(n==1) then return
+# 19-9 Module Summary and Simple JavaScript debug
 
 
 
