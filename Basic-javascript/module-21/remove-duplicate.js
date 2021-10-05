@@ -9,3 +9,13 @@ function removeDuplicate(num) {
     return unique
 }
 console.log(removeDuplicate(numbers));
+
+
+
+
+
+
+
+
+
+document.getElementById('')
