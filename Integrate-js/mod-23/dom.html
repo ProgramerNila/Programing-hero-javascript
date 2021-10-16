@@ -1,0 +1,68 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Hello Js</title>
+ </head>
+ <body>
+     <header>
+          <h1>Heloo World</h1>
+     </header>
+     <main>
+         <section class="blogs">
+ <article class="comon">
+             <h4>another</h4>
+             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse, in!</p>
+         </article>
+ <article id='ulli' class="comon">
+             <h4>my blog-1</h4>
+             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse, in!</p>
+         </article>
+         <article class="comon">
+             <h4>my blog-1</h4>
+             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse, in!</p>
+         </article>
+         <article class="comon">
+             <h4>my blog-2</h4>
+             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse, in!</p>
+         </article>
+         <article class="comon">
+             <h4>my blog-3</h4>
+             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse, in!</p>
+         </article>
+         <article  class="comon">
+             <h4 id="first_title">my blog-4</h4>
+             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse, in!</p>
+         </article>
+         </section>
+        
+     </main>
+   <script src="dom.js"></script>
+ <script>
+       const blog= document.getElementsByTagName('article');
+       for (const article of blog) {
+           console.log(article.innerText);
+       }
+       const blogdetails= document.getElementsByTagName('p');
+       for (const p of blogdetails) {
+           console.log(p.innerText);
+       }
+       const myId= document.getElementById('first_title');
+       myId.style.backgroundColor='red'
+       myId.style.textAlign='center';
+       myId.style.color='#fff';
+       myId.innerText='click koro amk';
+
+       const myClass= document.getElementsByClassName('comon');
+       console.log(myClass);
+      
+       for (const cla of myClass) {
+           console.log(cla.innerText); 
+           cla.style.color='blue'
+        //    myClass.style.color="blue";
+       }
+   </script> 
+ </body>
+ </html>
