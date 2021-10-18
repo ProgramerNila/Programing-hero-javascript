@@ -23,7 +23,7 @@ Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse, in
 ul.classList.add('comon')
 const ssss= document.getElementById('ulli')
 ssss.appendChild(ul);
-
+document.getElementsByTagName('p').style.color='red'
 
 
 

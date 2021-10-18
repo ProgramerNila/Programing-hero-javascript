@@ -1,0 +1,24 @@
+*{
+    margin: 0;padding: 0;
+}
+.bg-primary-1{
+    background: #fcebe9;
+}
+.btn-buy-now{
+        background-image: linear-gradient(to bottom, #FF589B 0%, #ff4b92 100%);
+    color: white;
+    border-radius: 8px;
+    padding: 9px 25px;
+    border: none;
+}
+.catagories img{
+    width: 100px;
+}
+.card-footer {
+    padding: .5rem 1rem;
+     background-color: #fff; 
+     border-top: 0
+}
+.card-footer {
+    display: none;
+}
