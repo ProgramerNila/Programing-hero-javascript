@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Home Work</h2>
+    <input id="first" type="text">
+    <button id="first_btn">First</button>
+    <input id="sec" type="text">
+    <button id="sec_btn">second</button>
+    <p id="total">0</p>
+    <button id='total_btn'>total</button>
+    <script>
+        const firstInput= document.getElementById('first');
+        const secInput= document.getElementById('sec');
+        const total= document.getElementById('total');
+         document.getElementById('first_btn').addEventListener('click',function(){
+             let fsValue= firstInput.value; 
+                let fnNum= parseFloat(fsValue)
+                console.log( fnNum);
+             firstInput.value=''
+         });
+         document.getElementById('sec_btn').addEventListener('click',function(){
+             let sceValue= secInput.value; 
+                let secNum= parseFloat(sceValue)
+                console.log( secNum);
+                secInput.value=''
+         });
+         document.getElementById('total_btn').addEventListener('click',function(){
+            let sceValue= secInput.value; 
+                let secNum= parseFloat(sceValue)
+                console.log( secNum);
+                secInput.value=''
+
+                /////
+                let fsValue= firstInput.value; 
+                let fnNum= parseFloat(fsValue)
+                console.log( fnNum);
+             firstInput.value=''
+                //////////
+             let totalSum= total.innerText; 
+                let totalNum= parseFloat(totalSum)
+                // console.log(totalNum);
+                let totalAm = secNum+fnNum+totalNum;
+                // let total2= totalNum+totalAm;
+                total.innerText=totalAm;
+         });
+
+    </script>
+</body>
+</html>

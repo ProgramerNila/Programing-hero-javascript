@@ -7,7 +7,7 @@ const first = demo[0];
 first.setAttribute('id', 'firstpar')
 console.log(demo);
 
-console.log(first.childNodes);
+document.write('my');
 
 // # 23-8 Create HTML elements using Javascript and appendChild
 const ul = document.createElement('article');

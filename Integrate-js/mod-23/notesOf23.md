@@ -29,7 +29,10 @@
 4. id. appandChild 
 ### Add element like article 
 
-
+# 23-9 Module summary and DOM Review
+1. removechild as a array 
+2. add child as arrauy 
+3. get child as a children 
 
 
 
