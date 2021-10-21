@@ -1,0 +1,39 @@
+.container {
+    width: 50%;
+    margin: auto;
+}
+.dispay_input {
+    width: 400px;
+    background: #333;
+}
+input#display_num {
+    background: none;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    width: 95%;
+    padding: 20px 0;
+    text-align: right;
+    font-size: 20px;
+}
+::placeholder {
+    color: #fff;
+}
+.all_key {
+    display: grid;
+    grid-template-columns: repeat(4,100px);
+    background: pink;
+    width: 400px;
+}
+.btnstyle {
+    width: 70px;
+    font-size: 30px;
+    margin: 8px;
+    padding: 10px;
+}
+.btnstyle.equal {
+    grid-row: 2/6;
+    grid-column: 4/5;
+    background: blue;
+    color: #fff;
+}

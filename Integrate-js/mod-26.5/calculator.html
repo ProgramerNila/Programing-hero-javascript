@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+      function cal(x) {
+          form.display.value+=x;
+      }
+     
+      function answers() {
+        let a= document.getElementById('display_num').value;
+        let b = eval(a);
+        document.getElementById('display_num').value=b
+      }
+  </script>
+</head>
+<body>
+  <section>
+    <div class="container">
+        <div class="calculator">
+            <form class="flex" name="form">
+                 <div class="dispay_input">
+            <input type="text" name="display" id="display_num" placeholder="0">
+            
+        </div>
+        <div class="all_key ">
+            
+            <input value="+" class="btnstyle" onclick="cal(this.value)">
+            <input value="-" class="btnstyle" onclick="cal(this.value)">
+            <input value="*" class="btnstyle" onclick="cal(this.value)">
+            <input value="/" class="btnstyle" onclick="cal(this.value)">
+            <input id="answer" value="=" class="btnstyle equal" onclick="answers()">
+            
+            <input value="7" class="btnstyle" onclick="cal(this.value)">
+            <input value="6" class="btnstyle" onclick="cal(this.value)">
+            <input value="5" class="btnstyle" onclick="cal(this.value)">
+            <input value="4" class="btnstyle" onclick="cal(this.value)">
+            <input value="3" class="btnstyle" onclick="cal(this.value)">
+            <input value="2"class="btnstyle" onclick="cal(this.value)">
+            <input value="1" class="btnstyle" onclick="cal(this.value)">
+            <!-- <input class="btnstyle">7</input> -->
+            <input value="8" class="btnstyle" onclick="cal(this.value)">
+            <input value="9" class="btnstyle" onclick="cal(this.value)">
+            <input value="0" class="btnstyle" onclick="cal(this.value)">
+            <input class="btnstyle" onclick="cal(this.value)">
+            <button id="clear" class="btnstyle">AC</button>
+            <input id="back" value="b" class="btnstyle" onclick="cals(this.value)">b</input>
+
+        </div>
+            </form>
+             
+        </div>
+   
+    </div>
+</section>
+      
+</body>
+</html>
