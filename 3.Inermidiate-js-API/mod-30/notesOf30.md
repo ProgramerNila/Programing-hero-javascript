@@ -8,10 +8,10 @@
 7. object 
 
 # 30-2 Recap of DOM Manipulation and event handler
-1. 
-2. 
-3. 
-4. 
+1. add friend in container
+2. add Background all friend
+3. add border all container
+4. add 
 5. 
 6. 
 7. 
