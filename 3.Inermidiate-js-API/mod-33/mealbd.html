@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meal BD</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<style>
+  #not{
+    display: none;
+  }
+</style>
+<body>
+  
+    <!-- search food araa  -->
+    <h2 class="text-center mt-5">Meal bd</h2>
+    <div class="input-group mb-3 w-50 mx-auto mt-5">
+        <input  id="input_field" type="text" class="form-control" placeholder="search here" aria-label="Recipient's username" aria-describedby="basic-addon2">
+        <button onclick="loadData()" class="input-group-text" id="basic-addon2">search</button>
+      </div>
+      <p id="not" class="text-danger fs-1 text-center mt-5">result not found</p>
+<!-- single food details  -->
+<div id="meal-details">
+
+</div>
+
+      <!-- Display food -->
+      <div id="card_container" class="row row-cols-1 row-cols-md-4 g-4"> 
+      </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- <script src="js/mealbd.js"></script> -->
+    <script src="js/asyns.js"></script>
+</body>
+</html>
