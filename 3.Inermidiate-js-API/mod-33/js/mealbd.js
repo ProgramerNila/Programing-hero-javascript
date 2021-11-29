@@ -18,7 +18,7 @@ const loadData = () => {
 }
 
 const seeFood =meals => {
-    console.log(meals.length);
+    // console.log(meals.length);
   const card_container = document.getElementById('card_container');
   card_container.textContent = ''
  
